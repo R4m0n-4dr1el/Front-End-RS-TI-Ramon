@@ -1,0 +1,76 @@
+/* Estilo para o titulo principal {h1} */
+h1 {
+    color: #ec1313; /*cor do texto*/
+    font-family: Arial, sans-serif; /*Fonte do texto*/
+    font-size: 40px; /*Tamanho da fonte*/
+}
+
+/* Estilo para paragráfos (p) */
+p {
+    font-size: 20px; /*Tamanho da fonte*/
+    line-height: 1.4; /*Espaçamentp entre linhas*/
+    color: #ffffff
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+    color: chocolate;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h2 {
+    font-size: 27px; /*Tamanho da fonte*/
+    line-height: 1.4; /*Espaçamentp entre linhas*/
+    color: #9c0087
+}
+
+h3 {
+    font-size: 22px; /*Tamanho da fonte*/
+    line-height: 1.4; /*Espaçamentp entre linhas*/
+    color: #ff0000
+}
+
+ol {
+    font-size: 18px; /*Tamanho da fonte*/
+    line-height: 1.4; /*Espaçamentp entre linhas*/
+    color: #ffffff
+}
+
+ul {
+    font-size: 18px; /*Tamanho da fonte*/
+    line-height: 1.4; /*Espaçamentp entre linhas*/
+    color: #ffffff
+}
+
+
+/* Estilo para imagem */
+ima {
+    max-width: 100%; /*Largura Máxima da imagem*/
+    height: auto; /*Altura automatica proporcional*/
+    margin: 10px 0; /*Margem superior e inferior*/
+}
+
+/*Estilo para links */
+a {
+    color: #0070cc; /*Cor do link*/
+    text-decoration: none; /*Remover sublinhado padrão*/
+}
+
+/*Estilo para links quando o mouse passa por cima (hover)*/
+a:hover {
+        text-decoration: underline; /*Sublinhado ao passar o mouse */
+}
+
+body {
+    background-image: url("imagens/nossa-compreensao-do-que-vemos-no-universo-pode-estar-errada-1675635379657_1280.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    size: background-image;
+}
